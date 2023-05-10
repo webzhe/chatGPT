@@ -17,8 +17,7 @@ const User: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [userInfo, setUserInfo] = useState({
         avatar: "/author.jpg",
         name: "azhe",
-        description:
-            'Star on <a href="https://github.com/webzhe/chatGPT" class="color-[#3050fb]" target="_blank" >Github</a>',
+        description:'',
     });
     return <UserStore.Provider value={{ userInfo, setUserInfo }}>{children}</UserStore.Provider>;
 };
