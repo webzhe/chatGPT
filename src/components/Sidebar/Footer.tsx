@@ -1,13 +1,13 @@
-import { Tooltip } from "antd";
+// import { Tooltip } from "antd";
 import classNames from "classnames";
-import { SettingOutlined } from "@ant-design/icons";
+// import { SettingOutlined } from "@ant-design/icons";
 import UserAvatar from "@/components/UserAvatar";
-import Button from "@/components/Button";
-import Setting from "@/components/Setting";
-import { useState } from "react";
+// import Button from "@/components/Button";
+// import Setting from "@/components/Setting";
+import React from "react";
 
 const Footer: React.FC = () => {
-    const [settingOpen, setSettingOpen] = useState(false);
+    // const [settingOpen, setSettingOpen] = useState(false);
 
     return (
         <footer
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             <div className="flex-1 flex-shrink-0 overflow-hidden">
                 <UserAvatar />
             </div>
-            <Tooltip title="设置">
+            {/* <Tooltip title="设置">
                 <Button
                     type="text"
                     shape="circle"
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                     <SettingOutlined />
                 </Button>
             </Tooltip>
-            <Setting open={settingOpen} onCancel={() => setSettingOpen(false)} />
+            <Setting open={settingOpen} onCancel={() => setSettingOpen(false)} /> */}
         </footer>
     );
 };
