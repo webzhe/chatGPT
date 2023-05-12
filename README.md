@@ -112,7 +112,3 @@ You may choose what you like and see the official docs for deploying.
 | `LOCAL_ACCESS_TOKENS` | Optional                                    | Simple authorization tokens, empty means no auth control.                                                        |
 
 > Note: Changing environment variables in Railway will cause re-deployment.
-
-## License
-
-MIT © [helianthuswhite](./license)

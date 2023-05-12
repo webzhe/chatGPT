@@ -108,7 +108,3 @@ LOCAL_ACCESS_TOKENS=
 | `LOCAL_ACCESS_TOKENS` | 可选                                          | 简单权限认证的 token，需要前端请求携带，后端验证，多个 token 以逗号分隔                                                  |
 
 > 注意：在 Railway 中更新环境变量会导致服务重新部署。
-
-## License
-
-MIT © [helianthuswhite](./license)
